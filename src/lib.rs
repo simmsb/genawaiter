@@ -255,6 +255,7 @@ developers might recognize this as a polyfill.
 #![warn(future_incompatible, rust_2018_compatibility, rust_2018_idioms, unused)]
 #![warn(missing_docs, clippy::cargo, clippy::pedantic)]
 #![cfg_attr(feature = "strict", deny(warnings))]
+#![no_std]
 
 #[cfg(test)]
 extern crate self as genawaiter;
